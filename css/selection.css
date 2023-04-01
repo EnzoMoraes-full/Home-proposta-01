@@ -68,10 +68,10 @@ html{
                       button,select{
                         text-transform:none
                       }
-                      button,html input[type=button],input[type=reset]{
-                        -webkit-appearance:button;
-                        cursor:pointer
-                      }button[disabled],html input[disabled]{
+  button,html input[type=button],input[type=reset]{
+  -webkit-appearance:button;
+  cursor:pointer
+  }button[disabled],html input[disabled]{
                         cursor:default}
                         button::-moz-focus-inner,input::-moz-focus-inner{
                           border:0;
@@ -85,7 +85,7 @@ html{
                         }
                         input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{
                           height:auto}input[type=search]{
-                            -webkit-appearance:none
+  -webkit-appearance:none
                           }
 .w-container{margin-left:auto;margin-right:auto;max-width:940px}
 .w-container:after,
